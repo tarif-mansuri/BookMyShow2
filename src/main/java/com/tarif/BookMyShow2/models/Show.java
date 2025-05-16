@@ -1,15 +1,16 @@
-package models;
+package com.tarif.BookMyShow2.models;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import models.enums.Feature;
+import com.tarif.BookMyShow2.models.enums.Feature;
 
 import java.util.List;
 
 @Entity
 @Getter
 @Setter
+@Table(name="show_table")
 public class Show extends BaseModel{
     @ManyToOne
     private Movie movie;

@@ -1,4 +1,4 @@
-package models;
+package com.tarif.BookMyShow2.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -6,7 +6,7 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
-import models.enums.ShowSeatStatus;
+import com.tarif.BookMyShow2.models.enums.ShowSeatStatus;
 
 @Getter
 @Setter

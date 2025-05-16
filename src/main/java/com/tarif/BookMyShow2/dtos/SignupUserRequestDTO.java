@@ -1,13 +1,12 @@
-package models;
+package com.tarif.BookMyShow2.dtos;
 
-import jakarta.persistence.Entity;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
-public class User extends BaseModel {
+public class SignupUserRequestDTO {
     private String name;
     private String email;
     private String password;
